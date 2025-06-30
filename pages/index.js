@@ -43,9 +43,19 @@ export default function Home() {
           </div>
         </section>
 
-        <footer id="contact" className="bg-white p-6 text-center text-sm mt-6">
-          <p className="font-bold text-red-700">Contact</p>
-          <p>Email: info@naijacuisine.com.au</p>
+        <footer id="contact" className="bg-gray-900 text-white p-8 text-center mt-10">
+          <div className="max-w-3xl mx-auto space-y-4">
+            <h3 className="text-xl font-bold">Naija Cuisine</h3>
+            <p>
+              <a href="https://www.google.com/maps?q=60+Inge+King+Crescent,+Whitlam,+ACT+2611" target="_blank" rel="noopener noreferrer" className="hover:underline text-red-400">
+                60 Inge King Crescent, Whitlam ACT 2611
+              </a>
+            </p>
+            <p>Phone: <a href="tel:+61451055419" className="hover:underline">+61 451 055 419</a></p>
+            <p>Email: <a href="mailto:info@naijacuisine.com.au" className="hover:underline">info@naijacuisine.com.au</a></p>
+            <p>Instagram: <a href="https://instagram.com/naija.cuisine" target="_blank" className="hover:underline">@naija.cuisine</a></p>
+            <p className="text-sm text-gray-400 mt-4">© 2025 Nija Cuisine. All rights reserved.</p>
+          </div>
         </footer>
       </main>
     </>
